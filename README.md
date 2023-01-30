@@ -1,23 +1,3 @@
-# Rethinking Network Design and Local Geometry in Point Cloud: A Simple Residual MLP Framework （ICLR 2022）
-
-
-
-
-
-[![github](https://img.shields.io/github/stars/ma-xu/pointMLP-pytorch?style=social)](https://github.com/ma-xu/pointMLP-pytorch)
-
-
-<div align="left">
-    <a><img src="images/smile.png"  height="70px" ></a>
-    <a><img src="images/neu.png"  height="70px" ></a>
-    <a><img src="images/columbia.png"  height="70px" ></a>
-</div>
-
- [open review](https://openreview.net/forum?id=3Pbra-_u76D) | [arXiv](https://arxiv.org/abs/2202.07123) | Primary contact: [Xu Ma](mailto:ma.xu1@northeastern.edu)
-
-<div align="center">
-  <img src="images/overview.png" width="650px" height="300px">
-</div>
 
 Overview of one stage in PointMLP. Given an input point cloud, PointMLP progressively extract local features using residual point MLP blocks. In each stage, we first transform local point using a geometric affine module, then local points are are extracted before and after aggregation respectively. By repeating multiple stages, PointMLP progressively enlarge the receptive field and model entire point cloud geometric information.
 
