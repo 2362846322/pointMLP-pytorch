@@ -51,7 +51,7 @@ Stay tuned. More elite versions and voting results will be uploaded.
 
 ```bash
 # step 1. clone this repo
-git clone https://github.com/ma-xu/pointMLP-pytorch.git
+https://github.com/2362846322/pointMLP-pytorch.git
 cd pointMLP-pytorch
 
 # step 2. create a conda virtual environment and activate it
